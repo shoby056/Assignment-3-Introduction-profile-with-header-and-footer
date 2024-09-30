@@ -1,0 +1,88 @@
+
+body{
+  background-color:rgb(226, 239, 230);
+}
+.container {
+  display: flex;
+  flex-direction: row; /* Align containers in a column */
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color:rgb(231, 225, 144);
+}
+
+.left-container{
+  font-size: 40px;
+  width: 800px;
+  height: fit-content;
+  margin-top: 20px;
+  margin-left: 5px;
+  color: rgb(42, 9, 104);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+footer {
+  background-Color: #333;
+  color: #eee5e5;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: large;
+  
+
+}
+
+
+
+.right-container {
+  width: fit-content;
+  border: none;
+  
+  margin-right: 5px;
+  height: fit-content;
+
+  
+
+}
+.img{
+  width: 100%; /* Ensure the image fits the width of the container */
+  height: 400px; /* Maintain aspect ratio */
+  border-radius: 600px; /* Apply the same border-radius as the container */
+  display: block; 
+  border: 3px solid rgb(56, 165, 192) ;
+  margin-right: 5px;
+  
+}
+ul{
+ 
+  display: flex;
+ 
+  justify-content: center;
+ 
+  
+
+  
+}
+header{
+  background-color: rgb(28, 127, 127);
+  margin: 0;
+  
+ 
+}
+.items{
+  
+  list-style: none;
+  padding: 20px;
+  color: white;
+   text-decoration: none;
+   font-size: large;
+
+  
+}
+
+.items:hover{
+  cursor: pointer;
+  color: rgb(158, 158, 223);
+}
+
